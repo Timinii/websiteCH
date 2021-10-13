@@ -1,0 +1,29 @@
+.page-section {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.page-section:not(.fg-white) h1,
+.page-section:not(.fg-white) h2,
+.page-section:not(.fg-white) h3 {
+  color: #6b6872;
+}
+
+.iconic-list {
+  position: relative;
+  list-style: none;
+  padding-left: 0;
+}
+
+.iconic-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  padding: 12px 0;
+}
+
+.iconic-item .iconic-content {
+  margin-left: 12px;
+  flex-basis: calc(100% - 100px);
+}
